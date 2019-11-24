@@ -20,9 +20,10 @@ end
 end
   
 board=[" "," "," "," "," "," "," "," "," "]    
-board1=[" "," "," "," "," "," "," "," "," "]    
+ 
 index=turn_count (board)
 
 board[index]=current_player(board)
-
+board
+puts board
 
