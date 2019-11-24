@@ -11,15 +11,17 @@ def  turn_count (board1)
   count=0
    board1.each do |turn|
     if turn == "X" || turn == "O"
+   
      count+=1
  end
   
 end
-count
+ return count
 end
   
   
 board1=[" "," "," "," "," "," "," "," "," "]    
-turn_count (board1)
+index=turn_count (board1)
+ board=board1(index)
 
 
