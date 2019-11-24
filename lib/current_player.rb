@@ -7,9 +7,9 @@ def current_player(board)
   end
 end
   
-def  turn_count (board1)
+def  turn_count (board)
   count=0
-   board1.each do |turn|
+   board.each do |turn|
     if turn == "X" || turn == "O"
    
      count+=1
@@ -21,7 +21,8 @@ end
   
 board=[" "," "," "," "," "," "," "," "," "]    
 board1=[" "," "," "," "," "," "," "," "," "]    
-index=turn_count (board1)
- board=board1(index)
-current_player(board)
+index=turn_count (board)
+
+board[index]=current_player(board)
+
 
