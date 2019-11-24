@@ -1,4 +1,4 @@
-def current_player(count)
+def current_player(board)
   
   if count%2==0  
    return "X"
@@ -23,5 +23,5 @@ end
 board1=[" "," "," "," "," "," "," "," "," "]    
 index=turn_count (board1)
  board=board1(index)
-
+current_player(board)
 
