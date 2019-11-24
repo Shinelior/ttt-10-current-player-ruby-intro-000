@@ -19,7 +19,7 @@ end
  return count
 end
   
-  
+board=[" "," "," "," "," "," "," "," "," "]    
 board1=[" "," "," "," "," "," "," "," "," "]    
 index=turn_count (board1)
  board=board1(index)
